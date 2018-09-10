@@ -11,3 +11,6 @@ _Secondary:_ Group Text
 * **Lauren Marsicano** :cat:
     * _Primary Role:_ Code Architecture/Lead Programmer
     * _Secondary Role:_ Data Modeler
+* **Angel Mercado** :alien:
+    * _Primary Role:_ Documentation Lead
+    * _Secondary Role:_ Testing Lead
