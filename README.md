@@ -17,3 +17,4 @@ _Secondary:_ Group Text
 * **Breeona Day** :metal:
     * _Primary Role:_ Client Liaison
     * _Secondary Role:_ UI/UX Design
+    * _Tertiary Role:_ Team Manager
