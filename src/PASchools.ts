@@ -1,15 +1,16 @@
 class PASchools
 {
-  name: String;
-  state: String;
-  minCumulativeGPA: double;
-  minScienceGPA: double;
-  minRequiredHCE: int;
-  GRERequired: boolean;
+  String name;
+  String state;
+  double minCumulativeGPA;
+  double minScienceGPA;
+  int minRequiredHCE;
+  boolean GRERequired;
 
-  constructor(name: String, state: String, minCumulativeGPA: double, minScienceGPA: double,
-                minRequiredHCE: int, GRERequired: boolean)
+  /*constructor(String name, String state, double minCumulativeGPA, double minScienceGPA,
+                int minRequiredHCE, boolean GRERequired)
   {
 
-  }
+  }*/
+
 }
