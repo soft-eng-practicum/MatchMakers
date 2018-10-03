@@ -4,3 +4,69 @@ h1
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
+.paImage
+{
+  width: 150px;
+  height: 100px;
+}
+.wrapper
+{
+  width: 90%;
+  padding-top: 10px;
+  margin: auto;
+  height: 1600px;
+  border: solid black 2px;
+  background-color: cyan;
+}
+.holder
+{
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+  height: 1250px;
+  border: solid black 2px;
+  background-color: cyan;
+  display: flex;
+}
+.header
+{
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 15px;
+  height: 250px;
+  border: solid green 5px;
+  background-color: orange;
+}
+.findProgram
+{
+  text-align: center;
+  width: 20%;
+  margin: 4px;
+  height: 1200px;
+  border: solid black 5px;
+  background-color: red;
+  flex-grow: 2;
+}
+.rightHolder
+{
+    flex-grow: 2;
+}
+.userInfo
+{
+  text-align: center;
+  width: 90%;
+  margin: 4px;
+  height: 800px;
+  border: solid yellow 3px;
+  background-color: green;
+}
+.selectedSchools
+{
+  width: 90%;
+  height: 200px;
+  margin: 4px;
+  margin-top: 50px;
+  border: dotted red 5px;
+  background-color: blue;
+}
