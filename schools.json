@@ -1,60 +1,72 @@
 {"name": "University of Alabama at Birmingham", "state": "AL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "University of South Alabama", "state": "AL", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "University of Alaska Anchorage", "state": "AK", "minCumulativeGPA": 2.70, "minScienceGPA": 2.70, "minRequiredHCE": 4000, "GRERequired": false}
-{"name": "Arizona School of Health Sciences", "state": "AZ", "minCumulativeGPA": 2.75, "minScienceGPA": 2.75, "minRequiredHCE": 0, "GRERequired": false}
-{"name": "Midwestern University Glendale", "state": "AZ", "minCumulativeGPA": 2.75, "minScienceGPA": 2.75, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "University of South Alabama", "state": "AL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "Arizona School of Health Sciences", "state": "AZ", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": false}
+{"name": "Midwestern University Glendale", "state": "AZ", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
 {"name": "North Arizona University", "state": "AZ", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
 {"name": "Harding University", "state": "AR", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 100, "GRERequired": true}
-{"name": "University of Arkansas", "state": "AR", "minCumulativeGPA": 0.00, "minScienceGPA": 0.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "University of Arkansas", "state": "AR", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "California Baptist University", "state": "CA", "minCumulativeGPA": 3.20, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": false}
 {"name": "Chapman University", "state": "CA", "minCumulativeGPA": 3.20, "minScienceGPA": 3.20, "minRequiredHCE": 1000, "GRERequired": true}
+{"name": "Charles R. Drew University", "state": "CA", "minCumulativeGPA": 0.00, "minScienceGPA": 3.00, "minRequiredHCE": 2000, "GRERequired": false}
+{"name": "Dominican University of California", "state": "CA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": false}
 {"name": "Loma Linda University", "state": "CA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 2000, "GRERequired": false}
-{"name": "Marshall B. Ketchum University", "state": "CA", "minCumulativeGPA": 2.75, "minScienceGPA": 3.00, "minRequiredHCE": 1000, "GRERequired": false}
-{"name": "Samuel Merritt College", "state": "CA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": false}
-{"name": "Stanford University", "state": "CA", "minCumulativeGPA": 2.50, "minScienceGPA": 2.50, "minRequiredHCE": 3000, "GRERequired": false}
-{"name": "Touro University", "state": "CA", "minCumulativeGPA": 2.75, "minScienceGPA": 2.75, "minRequiredHCE": 0, "GRERequired": false}
+{"name": "Marshall B. Ketchum University", "state": "CA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 1000, "GRERequired": false}
+{"name": "Samuel Merritt College", "state": "CA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 1000, "GRERequired": false}
+{"name": "Southern California University of Health Sciences", "state": "CA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": false}
+{"name": "Stanford University", "state": "CA", "minCumulativeGPA": 0.00, "minScienceGPA": 0.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "Touro University", "state": "CA", "minCumulativeGPA": 2.75, "minScienceGPA": 2.75, "minRequiredHCE": 1000, "GRERequired": false}
 {"name": "University of California Davis", "state": "CA", "minCumulativeGPA": 3.00, "minScienceGPA": 2.70, "minRequiredHCE": 1000, "GRERequired": false}
 {"name": "University of Southern California", "state": "CA", "minCumulativeGPA": 3.00, "minScienceGPA": 2.75, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "University of the Pacific", "state": "CA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 1000, "GRERequired": false}
 {"name": "Western University of Health Sciences", "state": "CA", "minCumulativeGPA": 2.70, "minScienceGPA": 2.70, "minRequiredHCE": 0, "GRERequired": false}
-{"name": "Red Rocks Community College", "state": "CO", "minCumulativeGPA": 0.00, "minScienceGPA": 0.00, "minRequiredHCE": 2000, "GRERequired": false}
-{"name": "University of Colorado", "state": "CO", "minCumulativeGPA": 2.80, "minScienceGPA": 2.80, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "Quinnipiac University", "state": "CT", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 2000, "GRERequired": false}
-{"name": "University of Bridgeport", "state": "CT", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": false}
-{"name": "Yale University School of Medicine", "state": "CT", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "Arcadia University - Delaware Campus", "state": "DE", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 200, "GRERequired": true}
+{"name": "Red Rocks Community College", "state": "CO", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 2000, "GRERequired": true}
+{"name": "University of Colorado", "state": "CO", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "Quinnipiac University", "state": "CT", "minCumulativeGPA": 3.20, "minScienceGPA": 3.20, "minRequiredHCE": 2500, "GRERequired": false}
+{"name": "Sacred Heart University", "state": "CT", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 1000, "GRERequired": false}
+{"name": "University of Bridgeport", "state": "CT", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 500, "GRERequired": false}
+{"name": "University of Saint Joseph", "state": "CT", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 250, "GRERequired": false}
+{"name": "Yale University School of Medicine", "state": "CT", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 1000, "GRERequired": true}
+{"name": "Yale University School of Medicine Online", "state": "CT", "minCumulativeGPA": 2.80, "minScienceGPA": 3.00, "minRequiredHCE": 1000, "GRERequired": true}
+{"name": "Arcadia University", "state": "DE", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 200, "GRERequired": true}
+{"name": "George Washington University", "state": "DC", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 1000, "GRERequired": true}
 {"name": "Adventist University of Health Sciences", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 2000, "GRERequired": true}
-{"name": "Barry University", "state": "FL", "minCumulativeGPA": 0.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "Herbert Wertheim College of Medicine", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "Keiser University", "state": "FL", "minCumulativeGPA": 2.75, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "Miami Dade College", "state": "FL", "minCumulativeGPA": 2.50, "minScienceGPA": 2.70, "minRequiredHCE": 0, "GRERequired": false}
-{"name": "Nova Southereastern University - Fort Lauderdale", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "Nova Southereastern University - Jacksonville", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "Nova Southereastern University - Orlando", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "Nova Southereastern University - Southwest Florida", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "South University - Tampa", "state": "FL", "minCumulativeGPA": 2.80, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "University of Florida", "state": "FL", "minCumulativeGPA": 0.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "University of South Florida - Tampa", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
-{"name": "Emory University", "state": "GA", "minCumulativeGPA": 0.00, "minScienceGPA": 0.00, "minRequiredHCE": 2000, "GRERequired": true}
-{"name": "Georgia Regents University", "state": "GA", "minCumulativeGPA": 3.00, "minScienceGPA":2.80, "minRequiredHCE": 100, "GRERequired": true}
-{"name": "Mercer University", "state": "GA", "minCumulativeGPA": 3.00, "minScienceGPA": 2.75, "minRequiredHCE": 1000, "GRERequired": true}
-{"name": "South University", "state": "GA", "minCumulativeGPA": 0.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "Idaho State University - Pocatello", "state": "ID", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "Idaho State University - Meridian", "state": "ID", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "Midwestern University - Downers Grove", "state": "IL", "minCumulativeGPA": 2.75, "minScienceGPA": 2.75, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "Northwestern University Feinberg School of Medicine", "state": "IL", "minCumulativeGPA": 2.80, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "Rosalind Franklin University of Medicine and Science", "state": "IL", "minCumulativeGPA": 2.50, "minScienceGPA": 2.50, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "Barry University", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "Florida Gulf Coast University", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 250, "GRERequired": true}
+{"name": "Florida International University Herbert Wertheim College of Medicine", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 2.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "Florida State University", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "Keiser University", "state": "FL", "minCumulativeGPA": 2.75, "minScienceGPA": 3.00, "minRequiredHCE": 100, "GRERequired": true}
+{"name": "Miami-Dade College", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": false}
+{"name": "Nova Southeastern University - Fort Lauderdale", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "Nova Southeastern University - Fort Myers", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "Nova Southeastern University - Jacksonville", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "Nova Southeastern University - Orlando", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "South University - Tampa", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "University of Florida", "state": "FL", "minCumulativeGPA": 0.00, "minScienceGPA": 0.00, "minRequiredHCE": 2000, "GRERequired": true}
+{"name": "University of South Florida", "state": "FL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "Augusta University", "state": "GA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 100, "GRERequired": true}
+{"name": "Emory University", "state": "GA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 2000, "GRERequired": true}
+{"name": "Mercer University", "state": "GA", "minCumulativeGPA": 3.00, "minScienceGPA": 2.90, "minRequiredHCE": 1000, "GRERequired": true}
+{"name": "South University", "state": "GA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "Idaho State University", "state": "ID", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "Dominican University of Illinois", "state": "IL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "Midwestern University - Downers Grove", "state": "IL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "Northwestern University", "state": "IL", "minCumulativeGPA": 2.80, "minScienceGPA": 0.00, "minRequiredHCE": 1000, "GRERequired": true}
+{"name": "Rosalind Franklin University of Medicine", "state": "IL", "minCumulativeGPA": 2.75, "minScienceGPA": 2.75, "minRequiredHCE": 0, "GRERequired": true}
 {"name": "Rush University", "state": "IL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 1000, "GRERequired": true}
-{"name": "Southern Illinois University", "state": "IL", "minCumulativeGPA": 3.20, "minScienceGPA": 3.20, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "Southern Illinois University", "state": "IL", "minCumulativeGPA": 3.20, "minScienceGPA": 3.20, "minRequiredHCE": 2000, "GRERequired": true}
 {"name": "Butler University", "state": "IN", "minCumulativeGPA": 3.40, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "Indiana State University", "state": "IN", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "Indiana University School of Health and Rehabilitation Sciences", "state": "IN", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
-{"name": "University of Saint Francis - Fort Wayne", "state": "IN", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "Indiana State University", "state": "IN", "minCumulativeGPA": 2.70, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "Indiana University School of Health and Rehabilitation Sciences", "state": "IN", "minCumulativeGPA": 3.00, "minScienceGPA": 3.20, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "University of Evansville", "state": "IN", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "University of Saint Francis - Fort Wayne", "state": "IN", "minCumulativeGPA": 0.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
 {"name": "Des Moines University", "state": "IA", "minCumulativeGPA": 2.80, "minScienceGPA": 0.00, "minRequiredHCE": 750, "GRERequired": true}
-{"name": "St. Ambrose University", "state": "IA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
-{"name": "University of Iowa", "state": "IA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 1000, "GRERequired": true}
-{"name": "Wichita State University", "state": "IA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": false}
+{"name": "St. Ambrose University", "state": "IA", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "University of Dubuque", "state": "IA", "minCumulativeGPA": 2.70, "minScienceGPA": 2.90, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "University of Iowa", "state": "IA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.20, "minRequiredHCE": 1000, "GRERequired": true}
+{"name": "Wichita State University", "state": "KS", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": false}
 {"name": "Sullivan University", "state": "KY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": false}
-{"name": "University of Kentucky", "state": "KY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 1050, "GRERequired": true}
+{"name": "University of Kentucky", "state": "KY", "minCumulativeGPA": 2.75, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
 {"name": "University of the Cumberlands", "state": "KY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "Franciscan Missionaries of Our Lady University", "state": "LA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 80, "GRERequired": true}
 {"name": "Louisiana State University - New Orleans", "state": "LA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 80, "GRERequired": true}
 {"name": "Louisiana State University - Shreveport", "state": "LA", "minCumulativeGPA": 2.90, "minScienceGPA": 2.90, "minRequiredHCE": 80, "GRERequired": true}
-{"name": "Our Lady of the Lake College", "state": "LA", "minCumulativeGPA": 0.00, "minScienceGPA": 0.00, "minRequiredHCE": 100, "GRERequired": true}
