@@ -70,3 +70,66 @@
 {"name": "Franciscan Missionaries of Our Lady University", "state": "LA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 80, "GRERequired": true}
 {"name": "Louisiana State University - New Orleans", "state": "LA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 80, "GRERequired": true}
 {"name": "Louisiana State University - Shreveport", "state": "LA", "minCumulativeGPA": 2.90, "minScienceGPA": 2.90, "minRequiredHCE": 80, "GRERequired": true}
+{"name": "University of New England", "state": "ME", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": false}
+{"name": "Anne Arundel Community College", "state": "MD", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 1400, "GRERequired": true}
+{"name": "Towson University CCBC - ESSEX", "state": "MD", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 800, "GRERequired": false}
+{"name": "Bay Path University", "state": "MA", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 500, "GRERequired": false}
+{"name": "Boston University School of Medicine", "state": "MA", "minCumulativeGPA": 0.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "MCPHS University - Boston", "state": "MA", "minCumulativeGPA": 3.20, "minScienceGPA": 3.20, "minRequiredHCE": 250, "GRERequired": false}
+{"name": "MCPHS University - Worcester", "state": "MA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.20, "minRequiredHCE": 0, "GRERequired": false}
+{"name": "MGH Institute of Health Professionals", "state": "MA", "minCumulativeGPA": 0.00, "minScienceGPA": 0.00, "minRequiredHCE": 1000, "GRERequired": true}
+{"name": "Northeastern University", "state": "MA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 1000, "GRERequired": false}
+{"name": "Springfield College", "state": "MA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 470, "GRERequired": false}
+{"name": "Tufts University", "state": "MA", "minCumulativeGPA": 0.00, "minScienceGPA": 0.00, "minRequiredHCE": 1000, "GRERequired": true}
+{"name": "Westfield State University", "state": "MA", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 500, "GRERequired": false}
+{"name": "Central Michigan University", "state": "MI", "minCumulativeGPA": 3.25, "minScienceGPA": 0.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "Eastern Michigan University", "state": "MI", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "Grand Valley State University", "state": "MI", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "University of Detroit - Mercy", "state": "MI", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 1000, "GRERequired": true}
+{"name": "Wayne State University", "state": "MI", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "Western Michigan University", "state": "MI", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 1000, "GRERequired": false}
+{"name": "Augsburg University", "state": "MN", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 2000, "GRERequired": false}
+{"name": "Bethel University", "state": "MN", "minCumulativeGPA": 3.25, "minScienceGPA": 3.25, "minRequiredHCE": 250, "GRERequired": false}
+{"name": "College of Saint Scholastica", "state": "MN", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 750, "GRERequired": true}
+{"name": "Saint Catherine University", "state": "MN", "minCumulativeGPA": 3.20, "minScienceGPA": 0.00, "minRequiredHCE": 1000, "GRERequired": true}
+{"name": "Mississippi College", "state": "MS", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 1000, "GRERequired": true}
+{"name": "Missouri State University", "state": "MO", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "Saint Louis University", "state": "MO", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": false}
+{"name": "Stepens College", "state": "MO", "minCumulativeGPA": 2.75, "minScienceGPA": 2.75, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "University of Missouri - Kansas City", "state": "MO", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "Rocky Mountain College", "state": "MT", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 1500, "GRERequired": true}
+{"name": "College of Saint Mary", "state": "NE", "minCumulativeGPA": 0.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": false}
+{"name": "Union College", "state": "NE", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 480, "GRERequired": false}
+{"name": "University of Nebraska", "state": "NE", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true}
+{"name": "Touro Union", "state": "NV", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "Franklin Pierce University", "state": "NH", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": false}
+{"name": "MCPHS University - Manchester", "state": "NH", "minCumulativeGPA": 3.00, "minScienceGPA": 3.20, "minRequiredHCE": 0, "GRERequired": false}
+{"name": "Monmouth University", "state": "NJ", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 200, "GRERequired": true}
+{"name": "Jefferson University New Jersey Campus", "state": "NJ", "minCumulativeGPA": 3.25, "minScienceGPA": 3.25, "minRequiredHCE": 200, "GRERequired": false}
+{"name": "Rutgers University", "state": "NJ", "minCumulativeGPA": 3.20, "minScienceGPA": 3.20, "minRequiredHCE": 1, "GRERequired": false}
+{"name": "Seton Hall University", "state": "NJ", "minCumulativeGPA": 3.20, "minScienceGPA": 0.00, "minRequiredHCE": 100, "GRERequired": true}
+{"name": "University of New Mexico", "state": "NM", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "University of St. Francis", "state": "NM", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "Albany Medical College", "state": "NY", "minCumulativeGPA": 0.00, "minScienceGPA": 0.00, "minRequiredHCE": 1000, "GRERequired": true}
+{"name": "Clarkson University", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "Cornell University", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "Cuny School of Medicine", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": false}
+{"name": "Cuny York College", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "D'youville College", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 80, "GRERequired": false}
+{"name": "Daemon College", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 120, "GRERequired": false}
+{"name": "Hofstra University", "state": "NY", "minCumulativeGPA": 3.20, "minScienceGPA": 3.20, "minRequiredHCE": 50, "GRERequired": false}
+{"name": "Le Moyne College", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 750, "GRERequired": false}
+{"name": "Long Island University", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "Marist College", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
+{"name": "Mercy College", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.20, "minRequiredHCE": 500, "GRERequired": false}
+{"name": "New York Institute of Technology", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 100, "GRERequired": false}
+{"name": "Pace University - Lenox Hill", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 200, "GRERequired": false}
+{"name": "Pace University - Pleasantville", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 200, "GRERequired": false}
+{"name": "Rochester Institute of Technology", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": false}
+{"name": "St. John's University", "state": "NY", "minCumulativeGPA": 0.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": false}
+{"name": "Stony Brook University", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 1000, "GRERequired": false}
+{"name": "Suny Downstate Medical Center", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 500, "GRERequired": false}
+{"name": "Suny Upstate Medical Center", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 1000, "GRERequired": true}
+{"name": "Touro College - Bay Shore and Winthrop Extension Center", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 200, "GRERequired": false}
+{"name": "Touro College - Manhattan", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 200, "GRERequired": false}
+{"name": "Wagner College", "state": "NY", "minCumulativeGPA": 3.20, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": false}
