@@ -16,7 +16,6 @@ ul {
     overflow: hidden;
     background-color: aliceblue;
 }
-
 li {
     float: left;
 }
@@ -28,7 +27,6 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color:grey;
@@ -81,7 +79,7 @@ li a:hover {
   height: 200px;
   margin: 4px;
   margin-top: 50px;
-  border: solid grey 5px;
+  border: solid grey 3px;
   background-color: aliceblue;
 }
 .stateContent
