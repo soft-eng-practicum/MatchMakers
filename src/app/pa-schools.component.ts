@@ -7,7 +7,7 @@ class PASchools
   minRequiredHCE: number;
   GRERequired: boolean;
 
-  
+
   // constructor(String name, String state, double minCumulativeGPA, double minScienceGPA,
   //               int minRequiredHCE, boolean GRERequired)
   // {
