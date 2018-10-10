@@ -21,7 +21,8 @@ ul {
     overflow: hidden;
     background-color: aliceblue;
 }
-li {
+li
+{
     float: left;
 }
 
@@ -91,10 +92,6 @@ li a:hover {
 {
     display: none;
 }
-#states
-{
-
-}
 #programSearch
 {
   width: 70%;
@@ -104,6 +101,10 @@ li a:hover {
   background-color: lightgray;
   border: solid black 1px;
   width: 20%;
+}
+#submitButton
+{
+  align: center;
 }
 body
 {
