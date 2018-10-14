@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
 export class AppComponent
 {
   private dataFile: string = '/assets/data/schools.json';
-  selectedState: string = '';
+  private selectedState: string = '';
 
   selectChangeHandler (event: any)
   {
