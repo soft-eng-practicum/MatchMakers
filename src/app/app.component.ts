@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -13,8 +12,7 @@ import { HttpClient } from '@angular/common/http';
 
 export class AppComponent
 {
-  private dataFile: string = "/assets/data/schools.json";
-
+  private dataFile: string = '/assets/data/schools.json';
   selectedState: string = '';
 
   selectChangeHandler (event: any)
