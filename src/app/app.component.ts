@@ -12,24 +12,12 @@ export class AppComponent
   title = 'Schools';
   constructor (private httpService: HttpClient) { }
   private selectedState: string = '';
-  private schoolList: string = '';
-  //
-  // ngOnInit()
-  // {
-  //   this.httpService.get("./assets/data/schools.json").subscribe(
-  //     data => {
-  //       this.arrSchools = data as string [];
-  //     }
-  //   )
-  // }
+  private schoolList;
 
   selectChangeHandler (event: any)
   {
     this.selectedState = event.target.value;
-    this.schoolList = this.httpService.get("./assets/data/schools.json").subscribe(
-      data => {
-        this.arrSchools = data as string [];
-      }
+    this.schoolList = this.httpService.get("./assets/data/schools.json");
   }
 
 }
