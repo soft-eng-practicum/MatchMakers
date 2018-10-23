@@ -12,16 +12,16 @@ export class AppComponent
   title = 'Schools';
   constructor (private httpService: HttpClient) { }
   private selectedState: string = '';
-  private schoolList: [];
+//  private schoolList: [];
 
-  selectChangeHandler (event: any)
-  {
-    this.selectedState = event.target.value;
-    var obserschoolList = this.httpService.get("./assets/data/schools.json");
-
-    obserschoolList.subscribe((data: PASchools) => this.schoolList = data.filter(item => item.state == this.selectedState); );
-  }
-    console.log(this.schoolList);
-  }
+  // selectChangeHandler (event: any)
+  // {
+  //   this.selectedState = event.target.value;
+  //   var obserschoolList = this.httpService.get("./assets/data/schools2.json");
+  //
+  //  obserschoolList.subscribe((data: PASchools) => this.schoolList = data.filter(item => item.state == this.selectedState); );
+  // }
+  //  console.log(this.schoolList);
+  // }
 
 }
