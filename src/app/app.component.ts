@@ -17,7 +17,11 @@ export class AppComponent
   selectChangeHandler (event: any)
   {
     this.selectedState = event.target.value;
-    this.schoolList = this.httpService.get("./assets/data/schools.json");
+    var obserschoolList = this.httpService.get("./assets/data/schools2.json");
+
+    obserschoolList.subscribe((data: PASchools) => this.schoolList = data.filter(item => item.state == this.selectedState); );
+  }
+    console.log(this.schoolList);
   }
 
 }

@@ -43,7 +43,7 @@
       <article>
       <h2><span>Select A School By State</span></h2>
       <select (change)="selectChangeHandler($event)"  class="dropbtn">
-        <option class="dropdown-content" value="Alabama">Alabama</option>
+        <option class="dropdown-content" value="AL">Alabama</option>
         <option class="dropdown-content" value="Florida">Florida</option>
         <option class="dropdown-content" value="New York">New York</option>
         <option class="dropdown-content" value="California">California</option>
@@ -52,7 +52,15 @@
       <p><span>You selected: </span><b> {{ selectedState }}</b></p>
       <table>
         <tr>Schools</tr>
-          <td>{{ schoolList }}</td>
+        <tr>
+          <td>
+            <ul>
+              <li *ngFor="let item of schoolList; let i = index">
+                {{i}} {{item.name}} state: {{item.state}}
+              </li>
+            </ul>
+          </td>
+        </tr>
       </table>
       </article>
   <!-- <button class="dropbtn">Select a School By State</button>

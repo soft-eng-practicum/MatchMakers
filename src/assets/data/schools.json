@@ -1,5 +1,6 @@
-{"name": "University of Alabama at Birmingham", "state": "AL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
-{"name": "University of South Alabama", "state": "AL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
+[
+  {"name": "University of Alabama at Birmingham", "state": "AL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true},
+{"name": "University of South Alabama", "state": "AL", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true},
 {"name": "Arizona School of Health Sciences", "state": "AZ", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": false}
 {"name": "Midwestern University Glendale", "state": "AZ", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true}
 {"name": "North Arizona University", "state": "AZ", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
@@ -133,3 +134,4 @@
 {"name": "Touro College - Bay Shore and Winthrop Extension Center", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 200, "GRERequired": false}
 {"name": "Touro College - Manhattan", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 200, "GRERequired": false}
 {"name": "Wagner College", "state": "NY", "minCumulativeGPA": 3.20, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": false}
+]
