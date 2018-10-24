@@ -6,5 +6,4 @@ class PASchools
   minScienceGPA: number;
   minRequiredHCE: number;
   GRERequired: boolean;
-
 }
