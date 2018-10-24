@@ -12,7 +12,8 @@ export class AppComponent
   title = 'Schools';
   constructor (private httpService: HttpClient) { }
   private selectedState: string = '';
- private schoolList: Array<PASchools> = [];
+  private schoolList: Array<PASchools> = [];
+
 
   selectChangeHandler (event: any)
   {
