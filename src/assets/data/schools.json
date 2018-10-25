@@ -133,5 +133,21 @@
 {"name": "Suny Upstate Medical Center", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 1000, "GRERequired": true},
 {"name": "Touro College - Bay Shore and Winthrop Extension Center", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 200, "GRERequired": false},
 {"name": "Touro College - Manhattan", "state": "NY", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 200, "GRERequired": false},
-{"name": "Wagner College", "state": "NY", "minCumulativeGPA": 3.20, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": false}
+{"name": "Wagner College", "state": "NY", "minCumulativeGPA": 3.20, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": false},
+{"name": "Campbell University", "state": "NC", "minCumulativeGPA": 3.20, "minScienceGPA": 0.00, "minRequiredHCE": 1000, "GRERequired": true},
+{"name": "University of North Dakota", "state": "ND", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 500, "GRERequired": false},
+{"name": "Baldwin Wallace University", "state": "OH", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true},
+{"name": "Oklahoma City University", "state": "OK", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": false},
+{"name": "Oregon Health and Science University", "state": "OR", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 2000, "GRERequired": true},
+{"name": "Arcadia University", "state": "PA", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 200, "GRERequired": true},
+{"name": "Bryant University", "state": "RI", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 2000, "GRERequired": true},
+{"name": "Charleston Southern University", "state": "SC", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 1000, "GRERequired": true},
+{"name": "University of South Dakota", "state": "SD", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": false},
+{"name": "Bethel University", "state": "TN", "minCumulativeGPA": 0.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": true},
+{"name": "Baylor College of Medicine", "state": "TX", "minCumulativeGPA": 3.20, "minScienceGPA": 3.20, "minRequiredHCE": 0, "GRERequired": true},
+{"name": "Rocky Mountain University of Health Professions", "state": "UT", "minCumulativeGPA": 3.20, "minScienceGPA": 3.00, "minRequiredHCE": 250, "GRERequired": true},
+{"name": "Eastern Virginia Medical School", "state": "VA", "minCumulativeGPA": 3.00, "minScienceGPA": 0.00, "minRequiredHCE": 0, "GRERequired": false},
+{"name": "Heritage University", "state": "WA", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 1000, "GRERequired": false},
+{"name": "Alderson-Broaddus University", "state": "WV", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 0, "GRERequired": true},
+{"name": "Carroll University", "state": "WI", "minCumulativeGPA": 3.00, "minScienceGPA": 3.00, "minRequiredHCE": 500, "GRERequired": true}
 ]
