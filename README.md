@@ -11,10 +11,10 @@ _Secondary:_ Group Text
 * **Lauren Marsicano** :cat:
     * _Primary Role:_ Code Architecture/Lead Programmer
     * _Secondary Role:_ Data Modeler
-* **Angel Mercado** :alien:
-    * _Primary Role:_ Documentation Lead
-    * _Secondary Role:_ Testing Lead
 * **Breeona Day** :metal:
     * _Primary Role:_ Client Liaison
     * _Secondary Role:_ UI/UX Design
     * _Tertiary Role:_ Team Manager
+* **Shared Roles** :cookie:
+    * _Primary Role:_ Documentation Lead
+    * _Secondary Role:_ Testing Lead
