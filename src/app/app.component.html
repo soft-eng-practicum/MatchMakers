@@ -37,12 +37,12 @@
         </div>
     </nav>
     <div class="topnav">
-      <input type="text" placeholder="Search For Schools">
+      <input *ngIf="!showStudentInfo" type="text" placeholder="Search For Schools">
     </div>
-    <div class="dropdown">
+    <div *ngIf="!showStudentInfo" class="dropdown">
       <article>
       <h2><span>Select A School By State</span></h2>
-      <select (change)="selectChangeHandler($event)"  class="dropbtn">
+      <select (change)="selectChangeHandler($event)" *ngIf="!showStudentInfo"  class="dropbtn">
         <option class="dropdown-content" value=null>Pick A State</option>
         <option class="dropdown-content" value="AL">Alabama</option>
         <option class="dropdown-content" value="AZ">Arizona</option>
@@ -93,20 +93,14 @@
         <option class="dropdown-content" value="WI">Wisconsin</option>
       </select>
       <table>
-        <tr>
-          <td>
-            <ul>
-              <li *ngFor="let item of schoolList; let i = index">
-                {{item.name}}
-              </li>
-            </ul>
-          </td>
-        </tr>
+          <tr (click)='storeSchool(i)' *ngFor="let item of schoolList; let i = index">
+               {{item.name}}
+          </tr>
       </table>
       </article>
 </div>
 
-<div class="rightHolder" ngShow="showStudenInfo">
+<div class="rightHolder" *ngIf="showStudentInfo">
       <div class="userInfo">
         <h2 style = "text-align: center">Student Information</h2>
         <hr/>
@@ -120,8 +114,8 @@
                 </tr>
                 <tr>
                 	<td>GRE Score</td>
-                    <td><input type = "number" name = "Verbal" value = "">Verbal</td>
-                    <td><input type = "number" name = "Quantative" value = "">Quantitive</td>
+                    <td><input #greVerbal type = "number" name = "Verbal" value = "">Verbal</td>
+                    <td><input #greQuant type = "number" name = "Quantative" value = "">Quantitive</td>
                     <td><input type = "Essay" name = "Essay" value = "">Essay</td>
                 </tr>
                 <tr>
@@ -131,11 +125,13 @@
 
                 <tr>
                 	<td></td>
-                    <td><button id = "submitButton">Submit</button></td>
+                    <td></td>
                 </tr>
             </table>
             <hr/>
                   </form>
+
+                  <button (click)="submitStudentInfo({greVerbal: greVerbal.value, greQuant: greQuant.value})" id = "submitButton" >Submit</button>
       </div>
       <div class="selectedSchools">
       </div>

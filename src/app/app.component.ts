@@ -10,11 +10,11 @@ import { HttpClient } from '@angular/common/http';
 export class AppComponent
 {
   title = 'Schools';
-  showStudenInfo = true;
+  showStudentInfo = true;
+  showSchools = false;
   constructor (private httpService: HttpClient) { }
   private selectedState: string = '';
   private schoolList: Array<PASchools> = [];
-
 
   selectChangeHandler (event: any)
   {
@@ -25,9 +25,16 @@ export class AppComponent
    console.log(this.schoolList);
   }
 
-  submitStudentInfo(event: any)
+  submitStudentInfo(studentInfo: any)
   {
-    this.showStudenInfo = false;
+    this.showStudentInfo = false;
+    this.showSchools = true;
+    console.log("pressed: " + studentInfo.greVerbal + studentInfo.greQuant);
+  }
+
+  storeSchool(schoolID: number)
+  {
+    console.log(this.schoolList[schoolID].name + " " + this.schoolList[schoolID].minCumulativeGPA);
   }
 
 }
