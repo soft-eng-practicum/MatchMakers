@@ -86,21 +86,21 @@
 .rightHolder
 {
     flex-grow: 1;
-    float:right;
+    float:center;
 }
 .userInfo
 {
   text-align: center;
-  width: 90%;
+  width: 65%;
   margin: 4px;
-  height: 500px;
+  height: 400px;
   border: solid grey 3px;
   background-color: aliceblue;
-  align: right;
+  align: center;
 }
 .rightHolder2
 {
-    flex-grow: 1;
+    flex-grow: 2;
     float:right;
 }
 .userInfo2
@@ -108,7 +108,7 @@
   text-align: center;
   width: 90%;
   margin: 4px;
-  height: 500px;
+  height: 400px;
   border: solid grey 3px;
   background-color: aliceblue;
   align: right;
