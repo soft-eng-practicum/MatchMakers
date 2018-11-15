@@ -108,13 +108,13 @@
         	<table class = "table1" style = "background-color: lightbue; width: 90%; height: 200px; margin: auto">
             	<tr>
                 	<td>Cumulative GPA</td>
-                   <td><input type = "decimal" name = "GPA" value = "">on 4.0 scale<span class = "required">*</span></td>
+                   <td><input #cumuGPA type = "decimal" name = "GPA" value = "">on 4.0 scale<span class = "required">*</span></td>
                    <td></td>
                    <td></td>
               </tr>
               <tr>
                   <td>Science GPA</td>
-                   <td><input type = "decimal" name = "SGPA" value = "">on 4.0 scale<span class = "required">*</span></td>
+                   <td><input #sciGPA type = "decimal" name = "SGPA" value = "">on 4.0 scale<span class = "required">*</span></td>
                    <td></td>
                    <td></td>
                 </tr>
@@ -122,11 +122,11 @@
                 	<td>GRE Score</td>
                     <td><input #greVerbal type = "number" name = "Verbal" value = "">Verbal</td>
                     <td><input #greQuant type = "number" name = "Quantative" value = "">Quantitive</td>
-                    <td><input type = "Essay" name = "Essay" value = "">Essay</td>
+                    <td><input #greEssay type = "Essay" name = "Essay" value = "">Essay</td>
                 </tr>
                 <tr>
                 	<td>Health Care Hours</td>
-                  <td><input type = "number" name = "number" value = ""><span class = "required">*</span></td>
+                  <td><input #hce type = "number" name = "number" value = ""><span class = "required">*</span></td>
                   <td></td>
                   <td></td>
                 </tr>
@@ -141,7 +141,8 @@
             <hr/>
                   </form>
 
-                  <button (click)="submitStudentInfo({greVerbal: greVerbal.value, greQuant: greQuant.value})" id = "submitButton" >Submit</button>
+                  <button (click)="submitStudentInfo({cumuGPA: cumuGPA.value, sciGPA: sciGPA.value, greVerbal: greVerbal.value,
+                    greQuant: greQuant.value, greEssay: greEssay.value, hce: hce.value})" id = "submitButton" >Submit</button>
       </div>
       <div class="selectedSchools">
       </div>

@@ -29,7 +29,8 @@ export class AppComponent
   {
     this.showStudentInfo = false;
     this.showSchools = true;
-    console.log("pressed: " + studentInfo.greVerbal + studentInfo.greQuant);
+    console.log("pressed: " + studentInfo.cumuGPA + " " + studentInfo.sciGPA +  " " + studentInfo.greVerbal +
+                    " " + studentInfo.greQuant + " " + studentInfo.greEssay +  " " + studentInfo.hce);
   }
 
   storeSchool(schoolID: number)
