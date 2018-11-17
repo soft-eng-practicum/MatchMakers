@@ -42,10 +42,10 @@
     <div *ngIf="!showStudentInfo" class="dropdown">
       <article>
       <h2><span>Select A School By State</span></h2>
-      <select (change)="selectChangeHandler($event)" *ngIf="!showStudentInfo"  class="dropbtn">
+      <select (change)="selectSchool($event)" *ngIf="!showStudentInfo"  class="dropbtn">
         <option class="dropdown-content" value=null>Pick A State</option>
         <option class="dropdown-content" value="AL">Alabama</option>
-        <option class="dropdown-content" value="AZ">Arizona</option>
+        <option class="dropdown-content" value="AZ">Arizona</option>)
         <option class="dropdown-content" value="AR">Arkansas</option>
         <option class="dropdown-content" value="CA">California</option>
         <option class="dropdown-content" value="CO">Colorado</option>
@@ -93,7 +93,7 @@
         <option class="dropdown-content" value="WI">Wisconsin</option>
       </select>
       <table>
-          <tr (click)='storeSchool(i)' *ngFor="let item of schoolList; let i = index">
+          <tr (click)='storeSchool(i)' (click)="calculateRating()" *ngFor="let item of schoolList; let i = index">
                {{item.name}}
           </tr>
       </table>
@@ -144,8 +144,31 @@
                   <button (click)="submitStudentInfo({cumuGPA: cumuGPA.value, sciGPA: sciGPA.value, greVerbal: greVerbal.value,
                     greQuant: greQuant.value, greEssay: greEssay.value, hce: hce.value})" id = "submitButton" >Submit</button>
       </div>
-      <div class="selectedSchools">
-      </div>
+    </div>
+    <div class="userRating" *ngIf="!showStudentInfo">
+      <p>
+        Your info: <br>
+             Cumulative GPA: {{studentCumuGPA}} <br>
+             Science GPA: {{studentSciGPA}} <br>
+             GRE Verbal: {{studentGREVerbal}} <br>
+             GRE Quantative: {{studentGREQuant}} <br>
+             GRE Essay: {{studentGREEssay}} <br>
+             HCE Hours: {{studentHCE}}
+      </p>
+
+      <p>
+        School Info: <br>
+        Min Required Cumulative GPA: {{schoolCumuGPA}} <br>
+        Min Requred Science GPA: {{schoolSciGPA}} <br>
+        GRE Required: {{schoolGRE}} <br>
+        Min Required HCE: {{schoolHCE}}
+      </p>
+
+      <p>
+        User Rating: <br>
+        Score: {{score}} <br>
+        Rating: {{rating}}
+      </p>
     </div>
 </body>
 </html>

@@ -113,6 +113,15 @@
   background-color: aliceblue;
   align: right;
 }
+.userRating
+{
+  border: solid black 3px;
+  float: right;
+  margin-right: 10%;
+  margin-top: 5%;
+  width: 40%;
+  height: 400px;
+}
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: navy;}
