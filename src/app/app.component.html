@@ -13,8 +13,6 @@
 
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
-
-            <!-- Logo -->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
                 <span class="icon-bar"></span>
@@ -24,7 +22,6 @@
                 <a href="#" class="navbar-brand">THE PA SCHOOL MATCHER</a>
             </div>
 
-            <!-- Menu Items -->
             <div class="collapse navbar-collapse" id="mainNavBar">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="app.component.html">Home</a></li>
@@ -33,16 +30,61 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-
         </div>
     </nav>
+
+    <div class="rightHolder" *ngIf="showStudentInfo">
+          <div class="userInfo">
+            <h2 style = "text-align: center">Student Information</h2>
+            <hr/>
+        	<form>
+            	<table class = "table1" style = "background-color: lightbue; width: 90%; height: 200px; margin: auto">
+                	<tr>
+                    	<td>Cumulative GPA</td>
+                       <td><input #cumuGPA type = "decimal" name = "GPA" value = "">on 4.0 scale<span class = "required">*</span></td>
+                       <td></td>
+                       <td></td>
+                  </tr>
+                  <tr>
+                      <td>Science GPA</td>
+                       <td><input #sciGPA type = "decimal" name = "SGPA" value = "">on 4.0 scale<span class = "required">*</span></td>
+                       <td></td>
+                       <td></td>
+                    </tr>
+                    <tr>
+                    	<td>GRE Score</td>
+                        <td><input #greVerbal type = "number" name = "Verbal" value = "">Verbal</td>
+                        <td><input #greQuant type = "number" name = "Quantative" value = "">Quantitive</td>
+                        <td><input #greEssay type = "Essay" name = "Essay" value = "">Essay</td>
+                    </tr>
+                    <tr>
+                    	<td>Health Care Hours</td>
+                      <td><input #hce type = "number" name = "number" value = ""><span class = "required">*</span></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+
+                    <tr>
+                    	<td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                </table>
+                <hr/>
+                      </form>
+              <button (click)="submitStudentInfo({cumuGPA: cumuGPA.value, sciGPA: sciGPA.value, greVerbal: greVerbal.value,
+                        greQuant: greQuant.value, greEssay: greEssay.value, hce: hce.value})" id = "submitButton" >Submit</button>
+          </div>
+        </div>
+
     <div class="topnav">
       <input *ngIf="!showStudentInfo" type="text" placeholder="Search For Schools">
     </div>
     <div *ngIf="!showStudentInfo" class="dropdown">
       <article>
       <h2><span>Select A School By State</span></h2>
-      <select (change)="selectSchool($event)" *ngIf="!showStudentInfo"  class="dropbtn">
+      <select (change)="selectState($event)" *ngIf="!showStudentInfo"  class="dropbtn">
         <option class="dropdown-content" value=null>Pick A State</option>
         <option class="dropdown-content" value="AL">Alabama</option>
         <option class="dropdown-content" value="AZ">Arizona</option>)
@@ -100,53 +142,9 @@
       </article>
 </div>
 
-<div class="rightHolder" *ngIf="showStudentInfo">
-      <div class="userInfo">
-        <h2 style = "text-align: center">Student Information</h2>
-        <hr/>
-    	<form>
-        	<table class = "table1" style = "background-color: lightbue; width: 90%; height: 200px; margin: auto">
-            	<tr>
-                	<td>Cumulative GPA</td>
-                   <td><input #cumuGPA type = "decimal" name = "GPA" value = "">on 4.0 scale<span class = "required">*</span></td>
-                   <td></td>
-                   <td></td>
-              </tr>
-              <tr>
-                  <td>Science GPA</td>
-                   <td><input #sciGPA type = "decimal" name = "SGPA" value = "">on 4.0 scale<span class = "required">*</span></td>
-                   <td></td>
-                   <td></td>
-                </tr>
-                <tr>
-                	<td>GRE Score</td>
-                    <td><input #greVerbal type = "number" name = "Verbal" value = "">Verbal</td>
-                    <td><input #greQuant type = "number" name = "Quantative" value = "">Quantitive</td>
-                    <td><input #greEssay type = "Essay" name = "Essay" value = "">Essay</td>
-                </tr>
-                <tr>
-                	<td>Health Care Hours</td>
-                  <td><input #hce type = "number" name = "number" value = ""><span class = "required">*</span></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-
-                <tr>
-                	<td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-            </table>
-            <hr/>
-                  </form>
-          <button (click)="submitStudentInfo({cumuGPA: cumuGPA.value, sciGPA: sciGPA.value, greVerbal: greVerbal.value,
-                    greQuant: greQuant.value, greEssay: greEssay.value, hce: hce.value})" id = "submitButton" >Submit</button>
-      </div>
-    </div>
     <div class="userRating" *ngIf="showUserRating">
       <p>
-        Based on your information, your user rating for {{ schoolName }} is: <br>
+        Based on your information, your user rating for <b>{{ schoolName }}</b> is: <br>
         <span id="ratingFont">{{ rating }}</span>
       </p>
     </div>
