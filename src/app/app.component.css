@@ -115,12 +115,17 @@
 }
 .userRating
 {
-  border: solid black 3px;
+  text-align: center;
+  font-size: 200%;
   float: right;
-  margin-right: 10%;
+  margin-right: 20%;
   margin-top: 5%;
   width: 40%;
   height: 400px;
+}
+#ratingFont
+{
+  font-size: 200%;
 }
 
 /* Change color of dropdown links on hover */

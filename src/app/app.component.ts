@@ -11,6 +11,7 @@ export class AppComponent
 {
   title = 'Schools';
   showStudentInfo = true;
+  showUserRating = false;
   constructor (private httpService: HttpClient) { }
   private selectedState: string = '';
   private schoolList: Array<PASchools> = [];
@@ -20,14 +21,16 @@ export class AppComponent
   studentGREVerbal: number = 0;
   studentGREQuant: number = 0;
   studentGREEssay: number = 0;
-  studentHCE: number 0;
+  studentHCE: number = 0;
 
+  schoolName: string = '';
   schoolCumuGPA: number = 0;
   schoolSciGPA: number = 0;
   schoolHCE: number = 0;
   schoolGRE: boolean = false;
 
-  score: number = 0;
+  score: number;
+  rating: string;
 
 
   selectSchool(event: any)
@@ -57,6 +60,7 @@ export class AppComponent
   {
     console.log(this.schoolList[schoolID].name + " " + this.schoolList[schoolID].minCumulativeGPA);
 
+    this.schoolName = this.schoolList[schoolID].name;
     this.schoolCumuGPA = this.schoolList[schoolID].minCumulativeGPA;
     this.schoolSciGPA = this.schoolList[schoolID].minScienceGPA;
     this.schoolHCE = this.schoolList[schoolID].minRequiredHCE;
@@ -66,6 +70,7 @@ export class AppComponent
   calculateRating()
   {
     console.log("calculate");
+    this.showUserRating = true;
     this.score = 0;
     this.rating = "";
     if (this.studentCumuGPA >= this.schoolCumuGPA)

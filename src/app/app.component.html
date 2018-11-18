@@ -94,7 +94,7 @@
       </select>
       <table>
           <tr (click)='storeSchool(i)' (click)="calculateRating()" *ngFor="let item of schoolList; let i = index">
-               {{item.name}}
+               {{ item.name }}
           </tr>
       </table>
       </article>
@@ -140,34 +140,14 @@
             </table>
             <hr/>
                   </form>
-
-                  <button (click)="submitStudentInfo({cumuGPA: cumuGPA.value, sciGPA: sciGPA.value, greVerbal: greVerbal.value,
+          <button (click)="submitStudentInfo({cumuGPA: cumuGPA.value, sciGPA: sciGPA.value, greVerbal: greVerbal.value,
                     greQuant: greQuant.value, greEssay: greEssay.value, hce: hce.value})" id = "submitButton" >Submit</button>
       </div>
     </div>
-    <div class="userRating" *ngIf="!showStudentInfo">
+    <div class="userRating" *ngIf="showUserRating">
       <p>
-        Your info: <br>
-             Cumulative GPA: {{studentCumuGPA}} <br>
-             Science GPA: {{studentSciGPA}} <br>
-             GRE Verbal: {{studentGREVerbal}} <br>
-             GRE Quantative: {{studentGREQuant}} <br>
-             GRE Essay: {{studentGREEssay}} <br>
-             HCE Hours: {{studentHCE}}
-      </p>
-
-      <p>
-        School Info: <br>
-        Min Required Cumulative GPA: {{schoolCumuGPA}} <br>
-        Min Requred Science GPA: {{schoolSciGPA}} <br>
-        GRE Required: {{schoolGRE}} <br>
-        Min Required HCE: {{schoolHCE}}
-      </p>
-
-      <p>
-        User Rating: <br>
-        Score: {{score}} <br>
-        Rating: {{rating}}
+        Based on your information, your user rating for {{ schoolName }} is: <br>
+        <span id="ratingFont">{{ rating }}</span>
       </p>
     </div>
 </body>
