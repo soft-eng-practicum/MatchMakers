@@ -1,0 +1,1848 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>pa-matcher documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">pa-matcher documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>AppComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/app.component.ts</code>
+</p>
+
+
+
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-root</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./app.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./app.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#rating">rating</a>
+                            </li>
+                            <li>
+                                <a href="#schoolCumuGPA">schoolCumuGPA</a>
+                            </li>
+                            <li>
+                                <a href="#schoolGRE">schoolGRE</a>
+                            </li>
+                            <li>
+                                <a href="#schoolHCE">schoolHCE</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#schoolList">schoolList</a>
+                            </li>
+                            <li>
+                                <a href="#schoolName">schoolName</a>
+                            </li>
+                            <li>
+                                <a href="#schoolSciGPA">schoolSciGPA</a>
+                            </li>
+                            <li>
+                                <a href="#score">score</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#selectedState">selectedState</a>
+                            </li>
+                            <li>
+                                <a href="#showStudentInfo">showStudentInfo</a>
+                            </li>
+                            <li>
+                                <a href="#showUserRating">showUserRating</a>
+                            </li>
+                            <li>
+                                <a href="#studentCumuGPA">studentCumuGPA</a>
+                            </li>
+                            <li>
+                                <a href="#studentGREEssay">studentGREEssay</a>
+                            </li>
+                            <li>
+                                <a href="#studentGREQuant">studentGREQuant</a>
+                            </li>
+                            <li>
+                                <a href="#studentGREVerbal">studentGREVerbal</a>
+                            </li>
+                            <li>
+                                <a href="#studentHCE">studentHCE</a>
+                            </li>
+                            <li>
+                                <a href="#studentSciGPA">studentSciGPA</a>
+                            </li>
+                            <li>
+                                <a href="#title">title</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#calculateRating">calculateRating</a>
+                            </li>
+                            <li>
+                                <a href="#selectState">selectState</a>
+                            </li>
+                            <li>
+                                <a href="#storeSchool">storeSchool</a>
+                            </li>
+                            <li>
+                                <a href="#submitStudentInfo">submitStudentInfo</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(httpService: <a href="https://angular.io/api/common/http/HttpClient" target="_blank">HttpClient</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/app.component.ts:14</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>httpService</td>
+                                                  
+                                                        <td>
+                                                                    <code><a href="https://angular.io/api/common/http/HttpClient" target="_blank" >HttpClient</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+        <h3 id="methods">
+            Methods
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="calculateRating"></a>
+                        <span class="name">
+                            <b>
+                            calculateRating
+                            </b>
+                            <a href="#calculateRating"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>calculateRating()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="113" class="link-to-prism">src/app/app.component.ts:113</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Makes user rating information visible</p>
+<p>Calculates user rating based on point system:</p>
+<p>For Cumulative GPA, Science GPA, and HCE hours, a point is given
+for each value in which the user information is greater than or
+equal to the school information</p>
+<p>For GRE, if the GRE is required, the user gets three points,
+one for each section of the GRE, if the score of all three
+is greater than 0, but will receive zero points if all three
+are not completed
+If the GRE is not required, the user will automatically
+receive all three points</p>
+<p>The rating is based on how many points the user receives out of six:
+0 - 2 points results in a POOR rating
+3 - 4 points results in an AVERAGE rating
+5 - 6 points results in a GOOD raing</p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="selectState"></a>
+                        <span class="name">
+                            <b>
+                            selectState
+                            </b>
+                            <a href="#selectState"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>selectState(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="50" class="link-to-prism">src/app/app.component.ts:50</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Reads schools.json and creates a list of all schools</p>
+<p>Filters school list based on state selected and state of each schoolList
+and creates list of filtered schools</p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>event</td>
+                                                        <td>
+                                                                    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="storeSchool"></a>
+                        <span class="name">
+                            <b>
+                            storeSchool
+                            </b>
+                            <a href="#storeSchool"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>storeSchool(schoolID: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="81" class="link-to-prism">src/app/app.component.ts:81</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Stores selected school information into variables for school information</p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>schoolID</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="submitStudentInfo"></a>
+                        <span class="name">
+                            <b>
+                            submitStudentInfo
+                            </b>
+                            <a href="#submitStudentInfo"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>submitStudentInfo(studentInfo: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="64" class="link-to-prism">src/app/app.component.ts:64</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Hides student information form</p>
+<p>Stores entered user information into variables for student information</p>
+</div>
+
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>studentInfo</td>
+                                                        <td>
+                                                                    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="rating"></a>
+                        <span class="name">
+                            <b>
+                            rating
+                            </b>
+                            <a href="#rating"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>rating:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="42" class="link-to-prism">src/app/app.component.ts:42</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="schoolCumuGPA"></a>
+                        <span class="name">
+                            <b>
+                            schoolCumuGPA
+                            </b>
+                            <a href="#schoolCumuGPA"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>schoolCumuGPA:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/app.component.ts:33</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="schoolGRE"></a>
+                        <span class="name">
+                            <b>
+                            schoolGRE
+                            </b>
+                            <a href="#schoolGRE"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>schoolGRE:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/app.component.ts:36</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="schoolHCE"></a>
+                        <span class="name">
+                            <b>
+                            schoolHCE
+                            </b>
+                            <a href="#schoolHCE"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>schoolHCE:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/app.component.ts:35</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="schoolList"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            schoolList
+                            </b>
+                            <a href="#schoolList"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <span class="modifier-icon icon ion-ios-reset"></span><code>schoolList:     <code><a href="../classes/PASchools.html" target="_self" >Array&lt;PASchools&gt;</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../classes/PASchools.html" target="_self" >Array&lt;PASchools&gt;</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/app.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="schoolName"></a>
+                        <span class="name">
+                            <b>
+                            schoolName
+                            </b>
+                            <a href="#schoolName"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>schoolName:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;&#x27;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/app.component.ts:32</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Default values for school information</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="schoolSciGPA"></a>
+                        <span class="name">
+                            <b>
+                            schoolSciGPA
+                            </b>
+                            <a href="#schoolSciGPA"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>schoolSciGPA:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/app.component.ts:34</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="score"></a>
+                        <span class="name">
+                            <b>
+                            score
+                            </b>
+                            <a href="#score"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>score:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="41" class="link-to-prism">src/app/app.component.ts:41</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Creates score and rating for the user</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="selectedState"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            selectedState
+                            </b>
+                            <a href="#selectedState"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <span class="modifier-icon icon ion-ios-reset"></span><code>selectedState:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;&#x27;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/app.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="showStudentInfo"></a>
+                        <span class="name">
+                            <b>
+                            showStudentInfo
+                            </b>
+                            <a href="#showStudentInfo"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>showStudentInfo:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>true</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/app.component.ts:13</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="showUserRating"></a>
+                        <span class="name">
+                            <b>
+                            showUserRating
+                            </b>
+                            <a href="#showUserRating"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>showUserRating:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/app.component.ts:14</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="studentCumuGPA"></a>
+                        <span class="name">
+                            <b>
+                            studentCumuGPA
+                            </b>
+                            <a href="#studentCumuGPA"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>studentCumuGPA:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/app.component.ts:22</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Default values for student information</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="studentGREEssay"></a>
+                        <span class="name">
+                            <b>
+                            studentGREEssay
+                            </b>
+                            <a href="#studentGREEssay"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>studentGREEssay:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/app.component.ts:26</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="studentGREQuant"></a>
+                        <span class="name">
+                            <b>
+                            studentGREQuant
+                            </b>
+                            <a href="#studentGREQuant"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>studentGREQuant:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/app.component.ts:25</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="studentGREVerbal"></a>
+                        <span class="name">
+                            <b>
+                            studentGREVerbal
+                            </b>
+                            <a href="#studentGREVerbal"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>studentGREVerbal:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/app.component.ts:24</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="studentHCE"></a>
+                        <span class="name">
+                            <b>
+                            studentHCE
+                            </b>
+                            <a href="#studentHCE"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>studentHCE:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/app.component.ts:27</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="studentSciGPA"></a>
+                        <span class="name">
+                            <b>
+                            studentSciGPA
+                            </b>
+                            <a href="#studentSciGPA"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>studentSciGPA:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/app.component.ts:23</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="title"></a>
+                        <span class="name">
+                            <b>
+                            title
+                            </b>
+                            <a href="#title"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>title:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;Schools&#x27;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/app.component.ts:12</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component } from &#x27;@angular/core&#x27;;
+import { HttpClient } from &#x27;@angular/common/http&#x27;;
+
+@Component({
+  selector: &#x27;app-root&#x27;,
+  templateUrl: &#x27;./app.component.html&#x27;,
+  styleUrls: [&#x27;./app.component.css&#x27;]
+})
+
+export class AppComponent
+{
+  title &#x3D; &#x27;Schools&#x27;;
+  showStudentInfo &#x3D; true;
+  showUserRating &#x3D; false;
+  constructor (private httpService: HttpClient) { }
+  private selectedState: string &#x3D; &#x27;&#x27;;
+  private schoolList: Array&lt;PASchools&gt; &#x3D; [];
+
+ /**
+ * Default values for student information
+ */
+  studentCumuGPA: number &#x3D; 0;
+  studentSciGPA: number &#x3D; 0;
+  studentGREVerbal: number &#x3D; 0;
+  studentGREQuant: number &#x3D; 0;
+  studentGREEssay: number &#x3D; 0;
+  studentHCE: number &#x3D; 0;
+
+/**
+ * Default values for school information
+ */
+  schoolName: string &#x3D; &#x27;&#x27;;
+  schoolCumuGPA: number &#x3D; 0;
+  schoolSciGPA: number &#x3D; 0;
+  schoolHCE: number &#x3D; 0;
+  schoolGRE: boolean &#x3D; false;
+
+/**
+ * Creates score and rating for the user
+ */
+  score: number;
+  rating: string;
+
+/**
+ * Reads schools.json and creates a list of all schools
+ *
+ * Filters school list based on state selected and state of each schoolList
+ * and creates list of filtered schools
+ */
+  selectState(event: any)
+  {
+    this.selectedState &#x3D; event.target.value;
+    var obserschoolList &#x3D; this.httpService.get(&quot;./assets/data/schools.json&quot;);
+
+   obserschoolList.subscribe((data: Array&lt;PASchools&gt;) &#x3D;&gt; this.schoolList &#x3D; data.filter(item &#x3D;&gt; item.state &#x3D;&#x3D; this.selectedState) );
+   console.log(this.schoolList);
+  }
+
+/**
+ * Hides student information form
+ *
+ * Stores entered user information into variables for student information
+ */
+  submitStudentInfo(studentInfo: any)
+  {
+    this.showStudentInfo &#x3D; false;
+    console.log(&quot;pressed: &quot; + studentInfo.cumuGPA + &quot; &quot; + studentInfo.sciGPA +  &quot; &quot; + studentInfo.greVerbal +
+                    &quot; &quot; + studentInfo.greQuant + &quot; &quot; + studentInfo.greEssay +  &quot; &quot; + studentInfo.hce);
+
+    this.studentCumuGPA &#x3D; studentInfo.cumuGPA;
+    this.studentSciGPA &#x3D; studentInfo.sciGPA;
+    this.studentGREVerbal &#x3D; studentInfo.greVerbal;
+    this.studentGREQuant &#x3D; studentInfo.greQuant;
+    this.studentGREEssay &#x3D; studentInfo.greEssay;
+    this.studentHCE &#x3D; studentInfo.hce;
+  }
+
+/**
+ * Stores selected school information into variables for school information
+ */
+  storeSchool(schoolID: number)
+  {
+    console.log(this.schoolList[schoolID].name + &quot; &quot; + this.schoolList[schoolID].minCumulativeGPA);
+
+    this.schoolName &#x3D; this.schoolList[schoolID].name;
+    this.schoolCumuGPA &#x3D; this.schoolList[schoolID].minCumulativeGPA;
+    this.schoolSciGPA &#x3D; this.schoolList[schoolID].minScienceGPA;
+    this.schoolHCE &#x3D; this.schoolList[schoolID].minRequiredHCE;
+    this.schoolGRE &#x3D; this.schoolList[schoolID].GRERequired;
+  }
+
+ /**
+ * Makes user rating information visible
+ *
+ * Calculates user rating based on point system:
+ *
+ * For Cumulative GPA, Science GPA, and HCE hours, a point is given
+ * for each value in which the user information is greater than or
+ * equal to the school information
+ *
+ * For GRE, if the GRE is required, the user gets three points,
+ * one for each section of the GRE, if the score of all three
+ * is greater than 0, but will receive zero points if all three
+ * are not completed
+ * If the GRE is not required, the user will automatically
+ * receive all three points
+ *
+ * The rating is based on how many points the user receives out of six:
+ * 0 - 2 points results in a POOR rating
+ * 3 - 4 points results in an AVERAGE rating
+ * 5 - 6 points results in a GOOD raing
+ */
+  calculateRating()
+  {
+    console.log(&quot;calculate&quot;);
+    this.showUserRating &#x3D; true;
+    this.score &#x3D; 0;
+    this.rating &#x3D; &quot;&quot;;
+    if (this.studentCumuGPA &gt;&#x3D; this.schoolCumuGPA)
+    {
+      this.score++;
+    }
+    if (this.studentSciGPA &gt;&#x3D; this.schoolSciGPA)
+    {
+      this.score++;
+    }
+    if (this.studentHCE &gt;&#x3D; this.schoolHCE)
+    {
+      this.score++;
+    }
+    if (this.schoolGRE &#x3D;&#x3D; true)
+    {
+      if (this.studentGREQuant &gt; 0 &amp;&amp; this.studentGREVerbal &gt; 0 &amp;&amp; this.studentGREEssay &gt; 0)
+      {
+        this.score +&#x3D; 3;
+      }
+    }
+    if (this.schoolGRE &#x3D;&#x3D; false)
+    {
+      this.score +&#x3D; 3;
+    }
+
+    if (this.score &lt;&#x3D; 2)
+    {
+      this.rating &#x3D; &quot;Poor&quot;;
+    }
+    else if (this.score &lt;&#x3D;4)
+    {
+      this.rating &#x3D; &quot;Average&quot;;
+    }
+    else
+    {
+      this.rating &#x3D; &quot;Good&quot;;
+    }
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang&#x3D;&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;title&gt;thepaschoolmatcher&lt;/title&gt;
+    &lt;meta charset&#x3D;&quot;utf-8&quot;&gt;
+    &lt;meta name&#x3D;&quot;viewport&quot; content&#x3D;&quot;width&#x3D;device-width, initial-scale&#x3D;1&quot;&gt;
+    &lt;link rel&#x3D;&quot;stylesheet&quot; href&#x3D;&quot;http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css&quot;&gt;
+    &lt;script src&#x3D;&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src&#x3D;&quot;http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;nav class&#x3D;&quot;navbar navbar-inverse&quot;&gt;
+        &lt;div class&#x3D;&quot;container-fluid&quot;&gt;
+            &lt;div class&#x3D;&quot;navbar-header&quot;&gt;
+              &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;navbar-toggle&quot; data-toggle&#x3D;&quot;collapse&quot; data-target&#x3D;&quot;#mainNavBar&quot;&gt;
+                &lt;span class&#x3D;&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;span class&#x3D;&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;span class&#x3D;&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/button&gt;
+                &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;navbar-brand&quot;&gt;THE PA SCHOOL MATCHER&lt;/a&gt;
+            &lt;/div&gt;
+
+            &lt;div class&#x3D;&quot;collapse navbar-collapse&quot; id&#x3D;&quot;mainNavBar&quot;&gt;
+                &lt;ul class&#x3D;&quot;nav navbar-nav&quot;&gt;
+                    &lt;li class&#x3D;&quot;active&quot;&gt;&lt;a href&#x3D;&quot;app.component.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Resources&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+
+    &lt;div class&#x3D;&quot;rightHolder&quot; *ngIf&#x3D;&quot;showStudentInfo&quot;&gt;
+          &lt;div class&#x3D;&quot;userInfo&quot;&gt;
+            &lt;h2 style &#x3D; &quot;text-align: center&quot;&gt;Student Information&lt;/h2&gt;
+            &lt;hr/&gt;
+        	&lt;form&gt;
+            	&lt;table class &#x3D; &quot;table1&quot; style &#x3D; &quot;background-color: lightbue; width: 90%; height: 200px; margin: auto&quot;&gt;
+                	&lt;tr&gt;
+                    	&lt;td&gt;Cumulative GPA&lt;/td&gt;
+                       &lt;td&gt;&lt;input #cumuGPA type &#x3D; &quot;decimal&quot; name &#x3D; &quot;GPA&quot; value &#x3D; &quot;&quot;&gt;on 4.0 scale&lt;span class &#x3D; &quot;required&quot;&gt;*&lt;/span&gt;&lt;/td&gt;
+                       &lt;td&gt;&lt;/td&gt;
+                       &lt;td&gt;&lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr&gt;
+                      &lt;td&gt;Science GPA&lt;/td&gt;
+                       &lt;td&gt;&lt;input #sciGPA type &#x3D; &quot;decimal&quot; name &#x3D; &quot;SGPA&quot; value &#x3D; &quot;&quot;&gt;on 4.0 scale&lt;span class &#x3D; &quot;required&quot;&gt;*&lt;/span&gt;&lt;/td&gt;
+                       &lt;td&gt;&lt;/td&gt;
+                       &lt;td&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                    	&lt;td&gt;GRE Score&lt;/td&gt;
+                        &lt;td&gt;&lt;input #greVerbal type &#x3D; &quot;number&quot; name &#x3D; &quot;Verbal&quot; value &#x3D; &quot;&quot;&gt;Verbal&lt;/td&gt;
+                        &lt;td&gt;&lt;input #greQuant type &#x3D; &quot;number&quot; name &#x3D; &quot;Quantative&quot; value &#x3D; &quot;&quot;&gt;Quantitive&lt;/td&gt;
+                        &lt;td&gt;&lt;input #greEssay type &#x3D; &quot;Essay&quot; name &#x3D; &quot;Essay&quot; value &#x3D; &quot;&quot;&gt;Essay&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                    	&lt;td&gt;Health Care Hours&lt;/td&gt;
+                      &lt;td&gt;&lt;input #hce type &#x3D; &quot;number&quot; name &#x3D; &quot;number&quot; value &#x3D; &quot;&quot;&gt;&lt;span class &#x3D; &quot;required&quot;&gt;*&lt;/span&gt;&lt;/td&gt;
+                      &lt;td&gt;&lt;/td&gt;
+                      &lt;td&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+
+                    &lt;tr&gt;
+                    	&lt;td&gt;&lt;/td&gt;
+                      &lt;td&gt;&lt;/td&gt;
+                      &lt;td&gt;&lt;/td&gt;
+                      &lt;td&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+                &lt;hr/&gt;
+                      &lt;/form&gt;
+              &lt;button (click)&#x3D;&quot;submitStudentInfo({cumuGPA: cumuGPA.value, sciGPA: sciGPA.value, greVerbal: greVerbal.value,
+                        greQuant: greQuant.value, greEssay: greEssay.value, hce: hce.value})&quot; id &#x3D; &quot;submitButton&quot; &gt;Submit&lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class&#x3D;&quot;topnav&quot;&gt;
+      &lt;input *ngIf&#x3D;&quot;!showStudentInfo&quot; type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;Search For Schools&quot;&gt;
+    &lt;/div&gt;
+    &lt;div *ngIf&#x3D;&quot;!showStudentInfo&quot; class&#x3D;&quot;dropdown&quot;&gt;
+      &lt;article&gt;
+      &lt;h2&gt;&lt;span&gt;Select A School By State&lt;/span&gt;&lt;/h2&gt;
+      &lt;select (change)&#x3D;&quot;selectState($event)&quot; *ngIf&#x3D;&quot;!showStudentInfo&quot;  class&#x3D;&quot;dropbtn&quot;&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;null&gt;Pick A State&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;AL&quot;&gt;Alabama&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;AZ&quot;&gt;Arizona&lt;/option&gt;)
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;AR&quot;&gt;Arkansas&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;CA&quot;&gt;California&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;CO&quot;&gt;Colorado&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;CT&quot;&gt;Connecticut&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;DE&quot;&gt;Delaware&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;DC&quot;&gt;District of Columbia&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;FL&quot;&gt;Florida&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;GA&quot;&gt;Georgia&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;ID&quot;&gt;Idaho&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;IL&quot;&gt;Illinois&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;IN&quot;&gt;Indiana&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;IA&quot;&gt;Iowa&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;KS&quot;&gt;Kansas&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;KY&quot;&gt;Kentucky&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;LA&quot;&gt;Louisiana&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;ME&quot;&gt;Maine&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;MD&quot;&gt;Maryland&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;MA&quot;&gt;Massachusetts&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;MI&quot;&gt;Michigan&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;MN&quot;&gt;Minnesota&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;MS&quot;&gt;Mississippi&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;MO&quot;&gt;Missouri&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;MT&quot;&gt;Montana&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;NE&quot;&gt;Nebraska&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;NV&quot;&gt;Nevada&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;NH&quot;&gt;New Hampshire&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;NJ&quot;&gt;New Jersey&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;NM&quot;&gt;New Mexico&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;NY&quot;&gt;New York&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;NC&quot;&gt;North Carolina&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;ND&quot;&gt;North Dakota&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;OH&quot;&gt;Ohio&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;OK&quot;&gt;Oklahoma&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;OR&quot;&gt;Oregon&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;PA&quot;&gt;Pennsylvania&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;RI&quot;&gt;Rhode Island&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;SC&quot;&gt;South Carolina&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;SD&quot;&gt;South Dakota&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;TN&quot;&gt;Tennessee&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;TX&quot;&gt;Texas&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;UT&quot;&gt;Utah&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;VA&quot;&gt;Virginia&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;WA&quot;&gt;Washington&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;WV&quot;&gt;West Virginia&lt;/option&gt;
+        &lt;option class&#x3D;&quot;dropdown-content&quot; value&#x3D;&quot;WI&quot;&gt;Wisconsin&lt;/option&gt;
+      &lt;/select&gt;
+      &lt;table&gt;
+          &lt;tr (click)&#x3D;&#x27;storeSchool(i)&#x27; (click)&#x3D;&quot;calculateRating()&quot; *ngFor&#x3D;&quot;let item of schoolList; let i &#x3D; index&quot;&gt;
+               {{ item.name }}
+          &lt;/tr&gt;
+      &lt;/table&gt;
+      &lt;/article&gt;
+&lt;/div&gt;
+
+    &lt;div class&#x3D;&quot;userRating&quot; *ngIf&#x3D;&quot;showUserRating&quot;&gt;
+      &lt;p&gt;
+        Based on your information, your user rating for &lt;b&gt;{{ schoolName }}&lt;/b&gt; is: &lt;br&gt;
+        &lt;span id&#x3D;&quot;ratingFont&quot;&gt;{{ rating }}&lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./app.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">/**
+*Add a black background color to the top navigation bar
+*/
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+/**
+* Style the links inside the navigation bar
+*/
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/**
+*Change the color of links on hover
+*/
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/**
+*Style the &quot;active&quot; element to highlight the current page
+*/
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+/**
+*Style the search box inside the navigation bar
+*/
+.topnav input[type&#x3D;text] {
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+/**
+*When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally
+*/
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type&#x3D;text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type&#x3D;text] {
+        border: 1px solid #ccc;
+    }
+}
+/**
+*Dropdown Button
+*/
+.dropbtn {
+    background-color: navy;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/**
+*The container &lt;div&gt; - needed to position the dropdown content
+*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/**
+*Dropdown Content (Hidden by Default)
+*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/**
+*Links inside the dropdown
+*/
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/**
+*Positioning placeholder
+*/
+.rightHolder
+{
+    flex-grow: 1;
+    float:center;
+}
+
+/**
+*Form user fills out with information
+*/
+.userInfo
+{
+  text-align: center;
+  width: 65%;
+  margin: 4px;
+  height: 400px;
+  border: solid grey 3px;
+  background-color: aliceblue;
+  align: center;
+}
+
+/**
+*Positioning placeholder
+*/
+.rightHolder2
+{
+    flex-grow: 2;
+    float:right;
+}
+
+/**
+*Container used to display the user rating based on the school
+*/
+.userRating
+{
+  text-align: center;
+  font-size: 200%;
+  float: right;
+  margin-right: 20%;
+  margin-top: 5%;
+  width: 40%;
+  height: 400px;
+}
+/**
+*Style used to make user rating more readable
+*/
+#ratingFont
+{
+  font-size: 200%;
+}
+
+/**
+*Change color of dropdown links on hover
+*/
+.dropdown-content a:hover {background-color: navy;}
+
+/**
+*Show the dropdown menu on hover
+*/
+.dropdown:hover .dropdown-content {display: block;}
+
+/**
+*Change the background color of the dropdown button when the dropdown content is shown
+*/
+.dropdown:hover .dropbtn {background-color: navy;}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><!DOCTYPE html><html lang="en"><head>    <title>thepaschoolmatcher</title>    <meta charset="utf-8">    <meta name="viewport" content="width=device-width, initial-scale=1">    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script></head><body>    <nav class="navbar navbar-inverse">        <div class="container-fluid">            <div class="navbar-header">              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">                <span class="icon-bar"></span>                <span class="icon-bar"></span>                <span class="icon-bar"></span>                </button>                <a href="#" class="navbar-brand">THE PA SCHOOL MATCHER</a>            </div>            <div class="collapse navbar-collapse" id="mainNavBar">                <ul class="nav navbar-nav">                    <li class="active"><a href="app.component.html">Home</a></li>                    <li><a href="#">About</a></li>                    <li><a href="#">Resources</a></li>                    <li><a href="#">Contact</a></li>                </ul>            </div>        </div>    </nav>    <div class="rightHolder" *ngIf="showStudentInfo">          <div class="userInfo">            <h2 style = "text-align: center">Student Information</h2>            <hr/>        	<form>            	<table class = "table1" style = "background-color: lightbue; width: 90%; height: 200px; margin: auto">                	<tr>                    	<td>Cumulative GPA</td>                       <td><input #cumuGPA type = "decimal" name = "GPA" value = "">on 4.0 scale<span class = "required">*</span></td>                       <td></td>                       <td></td>                  </tr>                  <tr>                      <td>Science GPA</td>                       <td><input #sciGPA type = "decimal" name = "SGPA" value = "">on 4.0 scale<span class = "required">*</span></td>                       <td></td>                       <td></td>                    </tr>                    <tr>                    	<td>GRE Score</td>                        <td><input #greVerbal type = "number" name = "Verbal" value = "">Verbal</td>                        <td><input #greQuant type = "number" name = "Quantative" value = "">Quantitive</td>                        <td><input #greEssay type = "Essay" name = "Essay" value = "">Essay</td>                    </tr>                    <tr>                    	<td>Health Care Hours</td>                      <td><input #hce type = "number" name = "number" value = ""><span class = "required">*</span></td>                      <td></td>                      <td></td>                    </tr>                    <tr>                    	<td></td>                      <td></td>                      <td></td>                      <td></td>                    </tr>                </table>                <hr/>                      </form>              <button (click)="submitStudentInfo({cumuGPA: cumuGPA.value, sciGPA: sciGPA.value, greVerbal: greVerbal.value,                        greQuant: greQuant.value, greEssay: greEssay.value, hce: hce.value})" id = "submitButton" >Submit</button>          </div>        </div>    <div class="topnav">      <input *ngIf="!showStudentInfo" type="text" placeholder="Search For Schools">    </div>    <div *ngIf="!showStudentInfo" class="dropdown">      <article>      <h2><span>Select A School By State</span></h2>      <select (change)="selectState($event)" *ngIf="!showStudentInfo"  class="dropbtn">        <option class="dropdown-content" value=null>Pick A State</option>        <option class="dropdown-content" value="AL">Alabama</option>        <option class="dropdown-content" value="AZ">Arizona</option>)        <option class="dropdown-content" value="AR">Arkansas</option>        <option class="dropdown-content" value="CA">California</option>        <option class="dropdown-content" value="CO">Colorado</option>        <option class="dropdown-content" value="CT">Connecticut</option>        <option class="dropdown-content" value="DE">Delaware</option>        <option class="dropdown-content" value="DC">District of Columbia</option>        <option class="dropdown-content" value="FL">Florida</option>        <option class="dropdown-content" value="GA">Georgia</option>        <option class="dropdown-content" value="ID">Idaho</option>        <option class="dropdown-content" value="IL">Illinois</option>        <option class="dropdown-content" value="IN">Indiana</option>        <option class="dropdown-content" value="IA">Iowa</option>        <option class="dropdown-content" value="KS">Kansas</option>        <option class="dropdown-content" value="KY">Kentucky</option>        <option class="dropdown-content" value="LA">Louisiana</option>        <option class="dropdown-content" value="ME">Maine</option>        <option class="dropdown-content" value="MD">Maryland</option>        <option class="dropdown-content" value="MA">Massachusetts</option>        <option class="dropdown-content" value="MI">Michigan</option>        <option class="dropdown-content" value="MN">Minnesota</option>        <option class="dropdown-content" value="MS">Mississippi</option>        <option class="dropdown-content" value="MO">Missouri</option>        <option class="dropdown-content" value="MT">Montana</option>        <option class="dropdown-content" value="NE">Nebraska</option>        <option class="dropdown-content" value="NV">Nevada</option>        <option class="dropdown-content" value="NH">New Hampshire</option>        <option class="dropdown-content" value="NJ">New Jersey</option>        <option class="dropdown-content" value="NM">New Mexico</option>        <option class="dropdown-content" value="NY">New York</option>        <option class="dropdown-content" value="NC">North Carolina</option>        <option class="dropdown-content" value="ND">North Dakota</option>        <option class="dropdown-content" value="OH">Ohio</option>        <option class="dropdown-content" value="OK">Oklahoma</option>        <option class="dropdown-content" value="OR">Oregon</option>        <option class="dropdown-content" value="PA">Pennsylvania</option>        <option class="dropdown-content" value="RI">Rhode Island</option>        <option class="dropdown-content" value="SC">South Carolina</option>        <option class="dropdown-content" value="SD">South Dakota</option>        <option class="dropdown-content" value="TN">Tennessee</option>        <option class="dropdown-content" value="TX">Texas</option>        <option class="dropdown-content" value="UT">Utah</option>        <option class="dropdown-content" value="VA">Virginia</option>        <option class="dropdown-content" value="WA">Washington</option>        <option class="dropdown-content" value="WV">West Virginia</option>        <option class="dropdown-content" value="WI">Wisconsin</option>      </select>      <table>          <tr (click)=\'storeSchool(i)\' (click)="calculateRating()" *ngFor="let item of schoolList; let i = index">               {{ item.name }}          </tr>      </table>      </article></div>    <div class="userRating" *ngIf="showUserRating">      <p>        Based on your information, your user rating for <b>{{ schoolName }}</b> is: <br>        <span id="ratingFont">{{ rating }}</span>      </p>    </div></body></html></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'AppComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'AppComponent.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
