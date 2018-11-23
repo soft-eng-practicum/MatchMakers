@@ -2,6 +2,8 @@
 ## PA School Matcher
 ### Repo
 https://github.com/soft-eng-practicum/MatchMakers.git
+### Documentation
+http://127.0.0.1:8080/index.html
 ### Progress Tracking Tool
 JIRA
 ### Communication Tools
