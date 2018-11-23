@@ -120,7 +120,7 @@
 {
   text-align: center;
   width: 65%;
-  margin: 4px;
+  margin: 100px;
   height: 400px;
   border: solid grey 3px;
   background-color: aliceblue;
@@ -171,3 +171,21 @@
 *Change the background color of the dropdown button when the dropdown content is shown
 */
 .dropdown:hover .dropbtn {background-color: navy;}
+
+.jumbotron{
+  background-color: aliceblue;
+  height: 150px;
+}
+ .italicTitle{
+   font-style: italic;
+ }
+
+
+input{
+  width: 25%;
+  border: 1px soild grey;
+  display: inline-block;
+  float: left;
+  clear: left;
+
+}
