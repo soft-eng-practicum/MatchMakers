@@ -195,15 +195,20 @@
   background-color: navy;
 }
 
-.jumbotron{
+.jumbotron
+{
   background-color: aliceblue;
   height: 150px;
+  margin-bottom: 0px;
 }
- .italicTitle{
+ .italicTitle
+ {
    font-style: italic;
+   width: 95%
  }
 
-input{
+input
+{
   width: 25%;
   border: 1px soild grey;
   display: inline-block;
