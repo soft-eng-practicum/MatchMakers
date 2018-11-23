@@ -1423,6 +1423,7 @@ export class AppComponent
     &lt;title&gt;thepaschoolmatcher&lt;/title&gt;
     &lt;meta charset&#x3D;&quot;utf-8&quot;&gt;
     &lt;meta name&#x3D;&quot;viewport&quot; content&#x3D;&quot;width&#x3D;device-width, initial-scale&#x3D;1&quot;&gt;
+    &lt;script src&#x3D;&quot;https://code.jquery.com/jquery-2.1.3.min.js&quot;&gt;&lt;/script&gt;
     &lt;link rel&#x3D;&quot;stylesheet&quot; href&#x3D;&quot;http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css&quot;&gt;
     &lt;script src&#x3D;&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js&quot;&gt;&lt;/script&gt;
     &lt;script src&#x3D;&quot;http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
@@ -1430,6 +1431,10 @@ export class AppComponent
 &lt;/head&gt;
 &lt;body&gt;
 
+    &lt;div class&#x3D; &quot;jumbotron&quot; style&#x3D;&quot;margin-bottom: 0px; &quot;&gt;
+       &lt;h2&gt;What Are My Chances?&lt;/h2&gt;
+ &lt;p class&#x3D; &quot;italicTitle&quot; style&#x3D; width:95%&gt;The application that allows you to see your possible chances of getting into physician assistant school.&lt;/p&gt;
+    &lt;/div&gt;
     &lt;nav class&#x3D;&quot;navbar navbar-inverse&quot;&gt;
         &lt;div class&#x3D;&quot;container-fluid&quot;&gt;
             &lt;div class&#x3D;&quot;navbar-header&quot;&gt;
@@ -1438,11 +1443,13 @@ export class AppComponent
                 &lt;span class&#x3D;&quot;icon-bar&quot;&gt;&lt;/span&gt;
                 &lt;span class&#x3D;&quot;icon-bar&quot;&gt;&lt;/span&gt;
                 &lt;/button&gt;
-                &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;navbar-brand&quot;&gt;THE PA SCHOOL MATCHER&lt;/a&gt;
+                &lt;a&gt;&lt;img src&#x3D;&quot;MatchMakerLogo.png&quot; width&#x3D;&quot;60px&quot; float:left /&gt;&lt;/a&gt;
+                &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;navbar-text&quot;&gt;THE PA SCHOOL MATCHER&lt;/a&gt;
             &lt;/div&gt;
 
             &lt;div class&#x3D;&quot;collapse navbar-collapse&quot; id&#x3D;&quot;mainNavBar&quot;&gt;
                 &lt;ul class&#x3D;&quot;nav navbar-nav&quot;&gt;
+
                     &lt;li class&#x3D;&quot;active&quot;&gt;&lt;a href&#x3D;&quot;app.component.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
                     &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
                     &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Resources&lt;/a&gt;&lt;/li&gt;
@@ -1457,35 +1464,28 @@ export class AppComponent
             &lt;h2 style &#x3D; &quot;text-align: center&quot;&gt;Student Information&lt;/h2&gt;
             &lt;hr/&gt;
         	&lt;form&gt;
-            	&lt;table class &#x3D; &quot;table1&quot; style &#x3D; &quot;background-color: lightbue; width: 90%; height: 200px; margin: auto&quot;&gt;
+            	&lt;table class &#x3D; &quot;table1&quot; style &#x3D; &quot;background-color: lightbue; width: 90%; height: 200px; margin: auto; align: center;&quot;&gt;
                 	&lt;tr&gt;
-                    	&lt;td&gt;Cumulative GPA&lt;/td&gt;
+                    	&lt;th&gt;Cumulative GPA &lt;/th&gt;
                        &lt;td&gt;&lt;input #cumuGPA type &#x3D; &quot;decimal&quot; name &#x3D; &quot;GPA&quot; value &#x3D; &quot;&quot;&gt;on 4.0 scale&lt;span class &#x3D; &quot;required&quot;&gt;*&lt;/span&gt;&lt;/td&gt;
                        &lt;td&gt;&lt;/td&gt;
                        &lt;td&gt;&lt;/td&gt;
                   &lt;/tr&gt;
                   &lt;tr&gt;
-                      &lt;td&gt;Science GPA&lt;/td&gt;
+                      &lt;th&gt;Science GPA &lt;/th&gt;
                        &lt;td&gt;&lt;input #sciGPA type &#x3D; &quot;decimal&quot; name &#x3D; &quot;SGPA&quot; value &#x3D; &quot;&quot;&gt;on 4.0 scale&lt;span class &#x3D; &quot;required&quot;&gt;*&lt;/span&gt;&lt;/td&gt;
                        &lt;td&gt;&lt;/td&gt;
                        &lt;td&gt;&lt;/td&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
-                    	&lt;td&gt;GRE Score&lt;/td&gt;
+                    	&lt;th&gt;GRE Score &lt;/th&gt;
                         &lt;td&gt;&lt;input #greVerbal type &#x3D; &quot;number&quot; name &#x3D; &quot;Verbal&quot; value &#x3D; &quot;&quot;&gt;Verbal&lt;/td&gt;
                         &lt;td&gt;&lt;input #greQuant type &#x3D; &quot;number&quot; name &#x3D; &quot;Quantative&quot; value &#x3D; &quot;&quot;&gt;Quantitive&lt;/td&gt;
                         &lt;td&gt;&lt;input #greEssay type &#x3D; &quot;Essay&quot; name &#x3D; &quot;Essay&quot; value &#x3D; &quot;&quot;&gt;Essay&lt;/td&gt;
                     &lt;/tr&gt;
                     &lt;tr&gt;
-                    	&lt;td&gt;Health Care Hours&lt;/td&gt;
+                    	&lt;th&gt;Health Care Hours&lt;/th&gt;
                       &lt;td&gt;&lt;input #hce type &#x3D; &quot;number&quot; name &#x3D; &quot;number&quot; value &#x3D; &quot;&quot;&gt;&lt;span class &#x3D; &quot;required&quot;&gt;*&lt;/span&gt;&lt;/td&gt;
-                      &lt;td&gt;&lt;/td&gt;
-                      &lt;td&gt;&lt;/td&gt;
-                    &lt;/tr&gt;
-
-                    &lt;tr&gt;
-                    	&lt;td&gt;&lt;/td&gt;
-                      &lt;td&gt;&lt;/td&gt;
                       &lt;td&gt;&lt;/td&gt;
                       &lt;td&gt;&lt;/td&gt;
                     &lt;/tr&gt;
@@ -1698,7 +1698,7 @@ export class AppComponent
 {
   text-align: center;
   width: 65%;
-  margin: 4px;
+  margin: 100px;
   height: 400px;
   border: solid grey 3px;
   background-color: aliceblue;
@@ -1749,6 +1749,24 @@ export class AppComponent
 *Change the background color of the dropdown button when the dropdown content is shown
 */
 .dropdown:hover .dropbtn {background-color: navy;}
+
+.jumbotron{
+  background-color: aliceblue;
+  height: 150px;
+}
+ .italicTitle{
+   font-style: italic;
+ }
+
+
+input{
+  width: 25%;
+  border: 1px soild grey;
+  display: inline-block;
+  float: left;
+  clear: left;
+
+}
 </code></pre>
     </div>
 
@@ -1777,7 +1795,7 @@ export class AppComponent
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><!DOCTYPE html><html lang="en"><head>    <title>thepaschoolmatcher</title>    <meta charset="utf-8">    <meta name="viewport" content="width=device-width, initial-scale=1">    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script></head><body>    <nav class="navbar navbar-inverse">        <div class="container-fluid">            <div class="navbar-header">              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">                <span class="icon-bar"></span>                <span class="icon-bar"></span>                <span class="icon-bar"></span>                </button>                <a href="#" class="navbar-brand">THE PA SCHOOL MATCHER</a>            </div>            <div class="collapse navbar-collapse" id="mainNavBar">                <ul class="nav navbar-nav">                    <li class="active"><a href="app.component.html">Home</a></li>                    <li><a href="#">About</a></li>                    <li><a href="#">Resources</a></li>                    <li><a href="#">Contact</a></li>                </ul>            </div>        </div>    </nav>    <div class="rightHolder" *ngIf="showStudentInfo">          <div class="userInfo">            <h2 style = "text-align: center">Student Information</h2>            <hr/>        	<form>            	<table class = "table1" style = "background-color: lightbue; width: 90%; height: 200px; margin: auto">                	<tr>                    	<td>Cumulative GPA</td>                       <td><input #cumuGPA type = "decimal" name = "GPA" value = "">on 4.0 scale<span class = "required">*</span></td>                       <td></td>                       <td></td>                  </tr>                  <tr>                      <td>Science GPA</td>                       <td><input #sciGPA type = "decimal" name = "SGPA" value = "">on 4.0 scale<span class = "required">*</span></td>                       <td></td>                       <td></td>                    </tr>                    <tr>                    	<td>GRE Score</td>                        <td><input #greVerbal type = "number" name = "Verbal" value = "">Verbal</td>                        <td><input #greQuant type = "number" name = "Quantative" value = "">Quantitive</td>                        <td><input #greEssay type = "Essay" name = "Essay" value = "">Essay</td>                    </tr>                    <tr>                    	<td>Health Care Hours</td>                      <td><input #hce type = "number" name = "number" value = ""><span class = "required">*</span></td>                      <td></td>                      <td></td>                    </tr>                    <tr>                    	<td></td>                      <td></td>                      <td></td>                      <td></td>                    </tr>                </table>                <hr/>                      </form>              <button (click)="submitStudentInfo({cumuGPA: cumuGPA.value, sciGPA: sciGPA.value, greVerbal: greVerbal.value,                        greQuant: greQuant.value, greEssay: greEssay.value, hce: hce.value})" id = "submitButton" >Submit</button>          </div>        </div>    <div class="topnav">      <input *ngIf="!showStudentInfo" type="text" placeholder="Search For Schools">    </div>    <div *ngIf="!showStudentInfo" class="dropdown">      <article>      <h2><span>Select A School By State</span></h2>      <select (change)="selectState($event)" *ngIf="!showStudentInfo"  class="dropbtn">        <option class="dropdown-content" value=null>Pick A State</option>        <option class="dropdown-content" value="AL">Alabama</option>        <option class="dropdown-content" value="AZ">Arizona</option>)        <option class="dropdown-content" value="AR">Arkansas</option>        <option class="dropdown-content" value="CA">California</option>        <option class="dropdown-content" value="CO">Colorado</option>        <option class="dropdown-content" value="CT">Connecticut</option>        <option class="dropdown-content" value="DE">Delaware</option>        <option class="dropdown-content" value="DC">District of Columbia</option>        <option class="dropdown-content" value="FL">Florida</option>        <option class="dropdown-content" value="GA">Georgia</option>        <option class="dropdown-content" value="ID">Idaho</option>        <option class="dropdown-content" value="IL">Illinois</option>        <option class="dropdown-content" value="IN">Indiana</option>        <option class="dropdown-content" value="IA">Iowa</option>        <option class="dropdown-content" value="KS">Kansas</option>        <option class="dropdown-content" value="KY">Kentucky</option>        <option class="dropdown-content" value="LA">Louisiana</option>        <option class="dropdown-content" value="ME">Maine</option>        <option class="dropdown-content" value="MD">Maryland</option>        <option class="dropdown-content" value="MA">Massachusetts</option>        <option class="dropdown-content" value="MI">Michigan</option>        <option class="dropdown-content" value="MN">Minnesota</option>        <option class="dropdown-content" value="MS">Mississippi</option>        <option class="dropdown-content" value="MO">Missouri</option>        <option class="dropdown-content" value="MT">Montana</option>        <option class="dropdown-content" value="NE">Nebraska</option>        <option class="dropdown-content" value="NV">Nevada</option>        <option class="dropdown-content" value="NH">New Hampshire</option>        <option class="dropdown-content" value="NJ">New Jersey</option>        <option class="dropdown-content" value="NM">New Mexico</option>        <option class="dropdown-content" value="NY">New York</option>        <option class="dropdown-content" value="NC">North Carolina</option>        <option class="dropdown-content" value="ND">North Dakota</option>        <option class="dropdown-content" value="OH">Ohio</option>        <option class="dropdown-content" value="OK">Oklahoma</option>        <option class="dropdown-content" value="OR">Oregon</option>        <option class="dropdown-content" value="PA">Pennsylvania</option>        <option class="dropdown-content" value="RI">Rhode Island</option>        <option class="dropdown-content" value="SC">South Carolina</option>        <option class="dropdown-content" value="SD">South Dakota</option>        <option class="dropdown-content" value="TN">Tennessee</option>        <option class="dropdown-content" value="TX">Texas</option>        <option class="dropdown-content" value="UT">Utah</option>        <option class="dropdown-content" value="VA">Virginia</option>        <option class="dropdown-content" value="WA">Washington</option>        <option class="dropdown-content" value="WV">West Virginia</option>        <option class="dropdown-content" value="WI">Wisconsin</option>      </select>      <table>          <tr (click)=\'storeSchool(i)\' (click)="calculateRating()" *ngFor="let item of schoolList; let i = index">               {{ item.name }}          </tr>      </table>      </article></div>    <div class="userRating" *ngIf="showUserRating">      <p>        Based on your information, your user rating for <b>{{ schoolName }}</b> is: <br>        <span id="ratingFont">{{ rating }}</span>      </p>    </div></body></html></div>'
+        var COMPONENT_TEMPLATE = '<div><!DOCTYPE html><html lang="en"><head>    <title>thepaschoolmatcher</title>    <meta charset="utf-8">    <meta name="viewport" content="width=device-width, initial-scale=1">    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script></head><body>    <div class= "jumbotron" style="margin-bottom: 0px; ">       <h2>What Are My Chances?</h2> <p class= "italicTitle" style= width:95%>The application that allows you to see your possible chances of getting into physician assistant school.</p>    </div>    <nav class="navbar navbar-inverse">        <div class="container-fluid">            <div class="navbar-header">              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">                <span class="icon-bar"></span>                <span class="icon-bar"></span>                <span class="icon-bar"></span>                </button>                <a><img src="MatchMakerLogo.png" width="60px" float:left /></a>                <a href="#" class="navbar-text">THE PA SCHOOL MATCHER</a>            </div>            <div class="collapse navbar-collapse" id="mainNavBar">                <ul class="nav navbar-nav">                    <li class="active"><a href="app.component.html">Home</a></li>                    <li><a href="#">About</a></li>                    <li><a href="#">Resources</a></li>                    <li><a href="#">Contact</a></li>                </ul>            </div>        </div>    </nav>    <div class="rightHolder" *ngIf="showStudentInfo">          <div class="userInfo">            <h2 style = "text-align: center">Student Information</h2>            <hr/>        	<form>            	<table class = "table1" style = "background-color: lightbue; width: 90%; height: 200px; margin: auto; align: center;">                	<tr>                    	<th>Cumulative GPA </th>                       <td><input #cumuGPA type = "decimal" name = "GPA" value = "">on 4.0 scale<span class = "required">*</span></td>                       <td></td>                       <td></td>                  </tr>                  <tr>                      <th>Science GPA </th>                       <td><input #sciGPA type = "decimal" name = "SGPA" value = "">on 4.0 scale<span class = "required">*</span></td>                       <td></td>                       <td></td>                    </tr>                    <tr>                    	<th>GRE Score </th>                        <td><input #greVerbal type = "number" name = "Verbal" value = "">Verbal</td>                        <td><input #greQuant type = "number" name = "Quantative" value = "">Quantitive</td>                        <td><input #greEssay type = "Essay" name = "Essay" value = "">Essay</td>                    </tr>                    <tr>                    	<th>Health Care Hours</th>                      <td><input #hce type = "number" name = "number" value = ""><span class = "required">*</span></td>                      <td></td>                      <td></td>                    </tr>                </table>                <hr/>                      </form>              <button (click)="submitStudentInfo({cumuGPA: cumuGPA.value, sciGPA: sciGPA.value, greVerbal: greVerbal.value,                        greQuant: greQuant.value, greEssay: greEssay.value, hce: hce.value})" id = "submitButton" >Submit</button>          </div>        </div>    <div class="topnav">      <input *ngIf="!showStudentInfo" type="text" placeholder="Search For Schools">    </div>    <div *ngIf="!showStudentInfo" class="dropdown">      <article>      <h2><span>Select A School By State</span></h2>      <select (change)="selectState($event)" *ngIf="!showStudentInfo"  class="dropbtn">        <option class="dropdown-content" value=null>Pick A State</option>        <option class="dropdown-content" value="AL">Alabama</option>        <option class="dropdown-content" value="AZ">Arizona</option>)        <option class="dropdown-content" value="AR">Arkansas</option>        <option class="dropdown-content" value="CA">California</option>        <option class="dropdown-content" value="CO">Colorado</option>        <option class="dropdown-content" value="CT">Connecticut</option>        <option class="dropdown-content" value="DE">Delaware</option>        <option class="dropdown-content" value="DC">District of Columbia</option>        <option class="dropdown-content" value="FL">Florida</option>        <option class="dropdown-content" value="GA">Georgia</option>        <option class="dropdown-content" value="ID">Idaho</option>        <option class="dropdown-content" value="IL">Illinois</option>        <option class="dropdown-content" value="IN">Indiana</option>        <option class="dropdown-content" value="IA">Iowa</option>        <option class="dropdown-content" value="KS">Kansas</option>        <option class="dropdown-content" value="KY">Kentucky</option>        <option class="dropdown-content" value="LA">Louisiana</option>        <option class="dropdown-content" value="ME">Maine</option>        <option class="dropdown-content" value="MD">Maryland</option>        <option class="dropdown-content" value="MA">Massachusetts</option>        <option class="dropdown-content" value="MI">Michigan</option>        <option class="dropdown-content" value="MN">Minnesota</option>        <option class="dropdown-content" value="MS">Mississippi</option>        <option class="dropdown-content" value="MO">Missouri</option>        <option class="dropdown-content" value="MT">Montana</option>        <option class="dropdown-content" value="NE">Nebraska</option>        <option class="dropdown-content" value="NV">Nevada</option>        <option class="dropdown-content" value="NH">New Hampshire</option>        <option class="dropdown-content" value="NJ">New Jersey</option>        <option class="dropdown-content" value="NM">New Mexico</option>        <option class="dropdown-content" value="NY">New York</option>        <option class="dropdown-content" value="NC">North Carolina</option>        <option class="dropdown-content" value="ND">North Dakota</option>        <option class="dropdown-content" value="OH">Ohio</option>        <option class="dropdown-content" value="OK">Oklahoma</option>        <option class="dropdown-content" value="OR">Oregon</option>        <option class="dropdown-content" value="PA">Pennsylvania</option>        <option class="dropdown-content" value="RI">Rhode Island</option>        <option class="dropdown-content" value="SC">South Carolina</option>        <option class="dropdown-content" value="SD">South Dakota</option>        <option class="dropdown-content" value="TN">Tennessee</option>        <option class="dropdown-content" value="TX">Texas</option>        <option class="dropdown-content" value="UT">Utah</option>        <option class="dropdown-content" value="VA">Virginia</option>        <option class="dropdown-content" value="WA">Washington</option>        <option class="dropdown-content" value="WV">West Virginia</option>        <option class="dropdown-content" value="WI">Wisconsin</option>      </select>      <table>          <tr (click)=\'storeSchool(i)\' (click)="calculateRating()" *ngFor="let item of schoolList; let i = index">               {{ item.name }}          </tr>      </table>      </article></div>    <div class="userRating" *ngIf="showUserRating">      <p>        Based on your information, your user rating for <b>{{ schoolName }}</b> is: <br>        <span id="ratingFont">{{ rating }}</span>      </p>    </div></body></html></div>'
     var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'}];
     var DIRECTIVES = [];
     var ACTUAL_COMPONENT = {'name': 'AppComponent'};
