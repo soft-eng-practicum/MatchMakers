@@ -20,5 +20,4 @@ _Secondary:_ Group Text
     * _Primary Role:_ Client Liaison
     * _Secondary Role:_ UI/UX Design
     * _Tertiary Role:_ Team Manager
-* **Shared Roles** :cookie:
-    * _Primary Role:_ Testing Lead
+    * _Quarternary Role:_ Testing Lead
